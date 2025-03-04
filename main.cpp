@@ -5,6 +5,7 @@ int main() {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
         printf("Gagal inisialisasi SDL: %s\n", SDL_GetError());
         return 1;
+// MY CODE
     }
 
     SDL_Window *window = SDL_CreateWindow("Tes SDL3", 800, 600, 0);
